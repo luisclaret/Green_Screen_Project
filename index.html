@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+    <script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <title>Green Screen</title>
+  </head>
+  <body>
+    <h1>Upload Image Prototype</h1>
+    <canvas id="can"></canvas>
+    <p>
+      Filename:
+      <input
+        type="file"
+        id="fileUpload"
+        multiple="false"
+        accept="image/*"
+        onchange="upload(this.value)"
+      />
+    </p>
+  </body>
+</html>
